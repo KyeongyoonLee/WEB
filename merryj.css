@@ -1,0 +1,165 @@
+ a{text-decoration: none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;} 
+.wrap{
+    width:80%;
+    margin:0 auto;
+}
+.header-box{
+    border-top:10px solid #F0745F
+}
+.search_bar{
+    float:right;
+    margin-top: -2%;
+    box-shadow: 0 0 3px #AAA;
+    border-radius:3px;
+}
+.search_bar input[type="text"]{
+    border:none;
+    outline:none;
+    padding: 1px 10px 8px;
+    background: none;
+    color : #666;
+    width:205px;
+}
+.top-nav{
+    padding-bottom:4%;
+    color: #000;
+}
+.top-nav ul li{
+    display: inline-block;
+}
+.top-nav ul li a{
+    display:block;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+    padding: 17px 19px;
+    /* transition: all 0.3s ease; */
+}
+.header{
+    padding: 2% 0;
+}
+.banner{
+    border-bottom: 5px solid #F0745F;
+}
+.logo{
+    float:left;
+}
+p.paragraph a{
+    color:#fff;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+p.paragraph a:hover{
+    color:#FDE5E0;
+}
+.bottom-grid1{
+    width:27%;
+    float:left; 
+    margin-right:3%;
+}
+.bottom-grid1 h3, .bottom-grid2 h3{
+    color: #363638;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:24px;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.bottom-grid span, .bottom-grid2 span{
+    color: #F0745F;
+    font-size: 15px;
+}
+.bottom-grid1 p, .bottom-grid2 p{
+    font-size:13px;
+    color: rgba(85,85, 85, 0.53);
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 0px 10px 0px;
+}
+.bottom-grid1 ul li a{
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 2.5em;
+    transition: 0.5s ease;
+}
+.bottom-grid2{
+    float:left;
+    width:33%;
+    margin-right: 3%;
+}
+
+.bottom-grid2 ul li {
+	display: inline-block;
+	width: 30%;
+	padding: 2.99% 1.34%;
+}
+.bottom-grid2 ul li img{
+	display:block;
+}
+.button {
+  font-family: 'Merriweather Sans', sans-serif;
+   background: #c74e3b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f0755f), to(#c74e3b));
+   background: -webkit-linear-gradient(top, #f0755f, #c74e3b);
+   background: -moz-linear-gradient(top, #f0755f, #c74e3b);
+   background: -ms-linear-gradient(top, #f0755f, #c74e3b);
+   background: -o-linear-gradient(top, #f0755f, #c74e3b);
+   background-image: -ms-linear-gradient(top, #f0755f 0%, #c74e3b 100%);
+   padding:8.5px 15px;
+  	-webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   color: #fff;
+   font-size: 13px;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.button:hover {
+  background:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
